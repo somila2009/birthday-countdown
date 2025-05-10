@@ -191,6 +191,4 @@ let countdown8 = setInterval(function() {
 <hr size="5" width="100%" color="black">
 <p>thank you for taking a look at my webpage </p>
 <img src="me.jpg">
-</br>
 </body>
-</html>
