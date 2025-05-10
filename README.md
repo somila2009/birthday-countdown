@@ -1,13 +1,9 @@
 <html>
 <head>
-<title>birthday countdown</title>
 <body>
 <body bgcolor="lightpink">
-<u><h1>birthday countdown</h1></u>
-</br>
 <h1>Why did i make it</h1> 
 <p>hi everyone thank you for join/entering my project that i put my heart and soul into !!!</p>
-</br>
 <hr size="5" width="100%" color="black"/>
 <h1>Birthday's</h1>
  <p>Tata:20 July
