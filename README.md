@@ -3,7 +3,7 @@
 <body>
 <body bgcolor="lightpink">
 <h1>Why did i make it</h1> 
-<p>hi everyone thank you for join/entering my project that i put my heart and soul into !!!</p>
+<p>hi everyone thank you for joing/entering my project that i put my heart and soul into !!!</p>
 <hr size="5" width="100%" color="black"/>
 <h1>Birthday's</h1>
  <p>Tata:20 July
@@ -23,7 +23,7 @@
   </p>
   <p>Linothando:03 October<h2 id="timer7"></h2>
   </p>
-  <p>Olunje:10 October<h2 id="timer8"></h2>
+  <p>Olunje:09 October<h2 id="timer8"></h2>
   </p>
   <script>
 
@@ -168,7 +168,7 @@ let countdown7 = setInterval(function() {
 }, 1000);
 
  // 0lunje's countdown
-  let countDownDate8 = new Date("Oct 10, 2025 00:00:00").getTime();
+  let countDownDate8 = new Date("Oct 09, 2025 00:00:00").getTime();
 let countdown8 = setInterval(function() {
   let now = new Date().getTime();
   let distance = countDownDate8 - now;
@@ -187,7 +187,6 @@ let countdown8 = setInterval(function() {
   }
 }, 1000);
 </script>
-</br>
 <hr size="5" width="100%" color="black">
 <p>thank you for taking a look at my webpage </p>
 <img src="me.jpg">
