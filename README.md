@@ -12,7 +12,7 @@
 
   <p>Mama:14 August
     <h2 id="timer15"></h2>
-    <p>Ma Bre:20 September <h2 id="timer9"></h2>
+    <p>Ma Bre:26 August<h2 id="timer9"></h2>
   </p>
   </p>
   <p>Ovayo:25 November <h2 id="timer3"></h2>
@@ -190,7 +190,7 @@ let countdown8 = setInterval(function() {
 }, 1000);
 
 // Ma Bre's countdown
-  let countDownDate9 = new Date("Sep 09, 2025 00:00:00").getTime();
+  let countDownDate9 = new Date("Aug 26, 2025 00:00:00").getTime();
 let countdown9 = setInterval(function() {
   let now = new Date().getTime();
   let distance = countDownDate8 - now;
