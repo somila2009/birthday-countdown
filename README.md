@@ -128,7 +128,7 @@ let countdown5 = setInterval(function() {
 }, 1000); 
 
 // Usiphile's countdown
-let countDownDate6 = new Date("Nov 22, 2025 00:00:00").getTime();
+let countDownDate6 = new Date("Dec 22, 2025 00:00:00").getTime();
 let countdown6 = setInterval(function() {
   let now = new Date().getTime();
   let distance = countDownDate6 - now;
