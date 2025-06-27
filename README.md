@@ -12,6 +12,8 @@
 
   <p>Mama:14 August
     <h2 id="timer15"></h2>
+    <p>Ma Bre:20 September <h2 id="timer9"></h2>
+  </p>
   </p>
   <p>Ovayo:25 November <h2 id="timer3"></h2>
   </p>
@@ -179,6 +181,26 @@ let countdown8 = setInterval(function() {
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   document.getElementById("timer8").innerHTML =
+    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(countdown9);
+    document.getElementById("timer8").innerHTML = "IT'S TIME! 🎊";
+  }
+}, 1000);
+
+// Ma Bre's countdown
+  let countDownDate9 = new Date("Sep 09, 2025 00:00:00").getTime();
+let countdown9 = setInterval(function() {
+  let now = new Date().getTime();
+  let distance = countDownDate8 - now;
+
+  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("timer9").innerHTML =
     days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
 
   if (distance < 0) {
