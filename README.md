@@ -193,7 +193,7 @@ let countdown8 = setInterval(function() {
   let countDownDate9 = new Date("Aug 26, 2025 00:00:00").getTime();
 let countdown9 = setInterval(function() {
   let now = new Date().getTime();
-  let distance = countDownDate8 - now;
+  let distance = countDownDate9 - now;
 
   let days = Math.floor(distance / (1000 * 60 * 60 * 24));
   let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
